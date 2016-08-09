@@ -106,20 +106,20 @@ h3{
 	text-align: center;
 }
 
-#contact-info hr{
+.contact-info hr{
 	height: 12px;
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
     padding: initial;
 
 }
-#contact-info ul  li{
+.contact-info ul  li{
 	display: inline;
 	margin:10px;
     padding-left: 8px;
 }
 
-#contact-info {
+.contact-info {
 	float: right;
 	width: 250px;
 	background: #003366;
@@ -138,8 +138,16 @@ footer > p{
 }
 
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 980px){
 	#main-bio{
 		width: 300px;
+	}
+	.contact-info{
+		float: left;
+		margin-left: 20px;
+	}
+
+	#buttons{
+		float: left;
 	}
 }
