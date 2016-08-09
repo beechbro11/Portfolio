@@ -1,0 +1,28 @@
+
+
+.container{
+	margin: 20px;
+}
+
+.panel-heading .panel-body{
+	display: inline;
+}
+
+.navbar-brand{
+	font-size: 30px
+}
+
+.navbar-default {
+    background-color: #e06b1c;
+}
+
+
+.panel-body {
+    margin-left: 50px;
+
+}
+
+.panel-title{
+	font-size: 21px;
+	text-align: center;
+}
