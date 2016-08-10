@@ -151,3 +151,23 @@ footer > p{
 		float: left;
 	}
 }
+
+@media screen and (max-width:768px){
+
+	#main-bio {
+    width: 657px;
+}
+
+@media screen and (max-width: 640px){
+	#buttons{
+		    margin-left: 18%;
+		    margin-top: -13px;
+
+	}
+
+	h1{
+		width: 63%
+	}
+
+
+}

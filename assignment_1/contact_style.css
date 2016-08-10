@@ -140,3 +140,35 @@ footer {
 footer > p{
 	size: 12px;
 }
+
+@media screen and (max-width: 980px){
+	#main-bio{
+		width: 300px;
+	}
+	.contact-info{
+		float: left;
+		margin-left: 20px;
+	}
+
+	#buttons{
+		float: left;
+	}
+}
+
+@media screen and (max-width:768px){
+
+	#main-bio {
+    width: 657px;
+}
+
+@media screen and (max-width: 640px){
+	#buttons{
+		    margin-left: 18%;
+		    margin-top: -13px;
+
+	}
+
+	h1{
+		width: 63%
+	}
+
